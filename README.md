@@ -18,6 +18,7 @@ Backend API built with **Python + FastAPI**, featuring **JWT authentication**, *
 - JWT
 
 ## Project Structure
+```
 app/
 ├── main.py
 ├── routers/
@@ -25,6 +26,7 @@ app/
 ├── schemas/
 ├── models/
 └── core/
+````
 
 ## Run locally
 
