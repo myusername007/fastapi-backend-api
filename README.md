@@ -17,6 +17,15 @@ Backend API built with **Python + FastAPI**, featuring **JWT authentication**, *
 - Alembic
 - JWT
 
+## Project Structure
+app/
+├── main.py
+├── routers/
+├── services/
+├── schemas/
+├── models/
+└── core/
+
 ## Run locally
 
 ### 1) Create and activate venv
@@ -49,3 +58,4 @@ Open Swagger UI:
 
 ## Notes
 This project demonstrates backend API development with authentication, database integration, and clean architecture.
+Dockerfile and docker-compose are included for containerized setup.
